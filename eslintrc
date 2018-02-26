@@ -297,7 +297,7 @@
 		"no-multiple-empty-lines": [1, {"max": 2}],
 		"no-multi-spaces": 1,
 		"comma-spacing": 1,
-		"dot-location": [1, "object"],
+		"dot-location": [0, "object"],
 		"no-whitespace-before-property": 1,
 		"template-tag-spacing": [2, "never"],
 
@@ -529,7 +529,7 @@
 
 		// The first property should always be placed on a new line if the JSX tag
 		// takes up multiple lines and there are multiple properties.
-		"react/jsx-first-prop-new-line": [1, "multiline-multiprop"],
+		"react/jsx-first-prop-new-line": [0, "multiline-multiprop"],
 
 		// Anton's Whisper's proof-of-concept often used binds.
 		"react/jsx-no-bind": 1,
